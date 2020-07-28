@@ -1,0 +1,14 @@
+{
+  "name": "restapi-news-app",
+  "version": "1.0.0",
+  "description": "RESTapi news app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "sc",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

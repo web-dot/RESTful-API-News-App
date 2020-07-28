@@ -55,7 +55,6 @@ body{
   font-size: 30px; 
 }
 /* .results{
-  /* border: 1px solid green; */
   width: 80%;
   height: 400px;
   margin: 0 auto;
@@ -114,4 +113,10 @@ span {
   background-color: #ccc;
   padding: 5px;
   margin: 5px;
+}
+
+@media screen and (max-width: 768px){
+  #search{
+    width: 300px;
+  }
 }

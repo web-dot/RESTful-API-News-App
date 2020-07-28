@@ -1,24 +1,70 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Nanum+Myeongjo&family=Playfair+Display&family=Roboto&display=swap');body {
   font-family: sans-serif;
 }
+body{
+  background-color: rgb(126, 126, 126);
+}
+.header{
+  border: 1px solid green;
+  width: 80%;
+  height: 70px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header h1 {
+  text-align: center;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
 
 .wrapper {
   width: 80%;
+  height:300px;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #ffffff;
 }
 
-.controls, .results {
-  flex: 1;
-  padding: 10px;
+.controls{
+  /* border: 1px solid green; */
+  width: 80%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
 }
+#searchlabel{
+  font-size: 30px;
+  color: rgb(0, 153, 255);
+} 
+#search{
+  width: 500px;
+  height: 40px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 153, 255);
+  text-align: center;
+  font-size: 30px; 
+}
+/* .results{
+  /* border: 1px solid green; */
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #ffffff;
+} */
 
 form p:nth-of-type(1) {
   margin-top: 0;
-}
-
-h1 {
-  text-align: center;
 }
 
 h2 {

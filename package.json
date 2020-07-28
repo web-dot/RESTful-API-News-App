@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "RESTapi news app",
   "main": "index.js",
+  "engines": {
+    "node": "v12.16.3"
+  },
   "scripts": {
     "start": "node ./index.js"
   },
   "author": "sc",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3"
   }
 }
